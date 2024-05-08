@@ -1,0 +1,40 @@
+html[mode-theme="dark"] header.fixed {
+  box-shadow: 1px 1px 15px hsl(0, 0%, 100%);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hero-img-dark {
+  background-image: url(./media/banner-dark.webp);
+}
+
+html[mode-theme="dark"] .hero-section__intro > .btn--primary {
+  background-color: var(--clr-btn-bc-hover);
+}
+
+html[mode-theme="dark"] .hero-section__intro > .btn--primary:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
+}
+
+html[mode-theme="dark"] .product-usp-gallery,
+.accessories-info:has(img) {
+  color: hsl(0, 0%, 0%);
+}
+
+html[mode-theme="dark"] #password__icon,
+.fa-moon {
+  color: hsl(16, 54%, 51%) !important;
+}
+
+html[mode-theme="dark"] .accessories-info__box1 {
+  background-color: hsl(0, 0%, 100%);
+}
+
+html[mode-theme="dark"] .back-top-btn {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+html[mode-theme="dark"] header.active {
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 1px 1px 15px hsl(0, 0%, 100%);
+}

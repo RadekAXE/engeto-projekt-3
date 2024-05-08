@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+  <!-- Radek Sekyra -->
+  <!-- rsekyra@post.cz -->
+  <!-- Radek S. (radyaxe) -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./nav.css" />
+    <link rel="stylesheet" href="./dark-mode.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6c24e714bb.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>BOOX Palma | Mobilní noviny</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <div class="wrapper header-bar flex">
+        <a href="#"><span class="logo">BOOX Palma</span></a>
+        <nav>
+          <ul id="nav-primary" class="nav-primary flex">
+            <li><a href="#product">O produktu</a></li>
+            <li><a href="#order">Objednat</a></li>
+            <li><a href="#accessories">Doplňky</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+          </ul>
+        </nav>
+        <button class="burger-menu" id="burger-btn">
+          <span class="burger-bar"></span>
+          <span class="burger-bar"></span>
+          <span class="burger-bar"></span>
+        </button>
+
+        <!-- Light and dark mode -->
+        <div class="dark-mode-switcher-box row-shift">
+          <div class="dark-mode-switcher-box__description">
+            <span>Světlý režim </span>
+            <span class="fa-solid fa-lightbulb light-mode__icon"></span>
+          </div>
+
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </header>
+    <!-- Hero-section -->
+    <section class="hero-section hero-img" id="hero">
+      <div class="wrapper">
+        <div class="hero-section-container row-shift">
+          <div class="hero-section__intro">
+            <div class="hero-section__text">
+              <h1 class="hero-section__title">BOOX Palma</h1>
+              <p>Objevte sílu elektronického mobilního papíru.</p>
+            </div>
+            <a href="#form" class="btn btn--primary">Objednat zařízení</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <!-- Product USP section == -->
+      <section id="product" class="product-usp">
+        <div class="wrapper">
+          <div class="product-usp__intro">
+            <h2 class="heading2-intro">Objevte E Ink Palma</h2>
+            <p class="product-usp__intro-par">
+              Naše nové mobilní zařízení ePaper kombinuje špičkový výkon s
+              displejem E Ink a designem velikosti telefonu , takže jej můžete
+              bez námahy strčit do kapsy a nosit s sebou na cestách.
+            </p>
+          </div>
+          <!-- Product USP GALLERY -->
+          <div class="product-usp-gallery">
+            <div class="product-usp__box1">
+              <div class="box1-container1 flex-col">
+                <div class="product-usp__item box1-item1">
+                  <img
+                    src="./media/meet-palma.webp"
+                    alt="Objevte Palmu"
+                    class="scale-img"
+                  />
+                  <div class="product-box1__title1 usp__title">
+                    <span class="bold">BOOX <br />Palma</span>
+                  </div>
+                </div>
+                <div class="product-usp__item box1-item2">
+                  <img
+                    src="./media/e-paper-display.webp"
+                    alt="Displej šetrný na oči"
+                    class="scale-img"
+                  />
+                  <div class="product-box1__title2 usp__title">
+                    <span>Elektronický papír šetrný na oči</span>
+                    <span class="bold">6.13''</span>
+                  </div>
+                </div>
+              </div>
+              <div class="box1-container2 flex-col">
+                <div class="product-usp__item box1-item3 flex-col">
+                  <div class="item3-box flex">
+                    <img src="./media/cpu-icon.webp" alt="CPU icon" />
+                    <span class="item3-box__title bold">CPU</span>
+                  </div>
+                  <span class="item3-box__text">Octa-core</span>
+                </div>
+                <div class="product-usp__item box1-item4 flex-col">
+                  <div class="item4-container flex">
+                    <div class="item4-box">
+                      <img src="./media/ram-icon.webp" alt="RAM icon" />
+                      <span>RAM</span>
+                    </div>
+                    <span class="bold">6 GB</span>
+                  </div>
+
+                  <div class="item4-container flex">
+                    <div class="item4-box flex">
+                      <img src="./media/rom-icon.webp" alt="ROM icon" /><span
+                        >ROM</span
+                      >
+                    </div>
+                    <span class="bold">128 GB</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product-usp__item box1-item5 item5-hidden">
+                <img
+                  src="./media/palma-phone-light-removebg-preview.webp"
+                  alt="Dokonalý zážitek čtení z mobilu"
+                  class="scale-img"
+                />
+                <div class="product-box1__title5 usp__title">
+                  Dokonalý zážitek čtení z mobilu
+                </div>
+              </div>
+            </div>
+            <div class="product-usp__box2">
+              <div class="product-usp__item box2-item1">
+                <img
+                  src="./media/palma-phone-light-removebg-preview.webp"
+                  alt="Dokonalý zážitek
+                  čtení z mobilu"
+                  class="scale-img"
+                />
+                <div class="product-box2__title1 usp__title">
+                  Dokonalý zážitek čtení z mobilu
+                </div>
+              </div>
+              <div class="box2-container1">
+                <div class="product-usp__item box2-item2">
+                  <img
+                    src="./media/boox-fresh.webp"
+                    alt="Boox super fresh"
+                    class="scale-img"
+                  />
+                </div>
+                <div class="product-usp__item box2-item3">
+                  <img
+                    src="./media/side-buttons.webp"
+                    alt="Side buttons"
+                    class="scale-img"
+                  />
+                  <div class="product-box2__title3 usp__title">
+                    <span>Nastavitelná tlačítka</span>
+                  </div>
+                </div>
+                <div class="product-usp__item box2-item4">
+                  <img
+                    src="./media/water-proof.webp"
+                    alt="Water proof"
+                    class="scale-img"
+                  />
+                  <div class="product-usp__title4 usp__title-bottom">
+                    <span>Voděodolný kryt</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Order section == -->
+      <section class="order-section" id="order">
+        <div class="wrapper">
+          <div class="order__intro">
+            <h2 class="heading2">Dokonalý zážitek</h2>
+            <p class="order__intro-par">
+              Staňte se svědky nové podoby technologie ePaper. Díky elegantnímu
+              tvaru a poměru stran, který je běžně k vidění u chytrých telefonů,
+              se Palma pohodlně vejde do tašky a můžete ji pohodlně držet ve své
+              dlani.
+            </p>
+          </div>
+          <div class="order-title-img">
+            <img
+              src="./media/order-photo.webp"
+              alt="Žena, která z postele čte ze zařízení Palma"
+            />
+          </div>
+          <div class="enquiry row-shift">
+            <div class="form-container" id="form">
+              <div class="form-container__label">Objednejte zařízení</div>
+              <form id="order-form" action="" class="flex-col form-enquiry">
+                <div class="input__wrapper">
+                  <input
+                    type="email"
+                    name=""
+                    id="mail"
+                    placeholder="E-mail*"
+                    required
+                  />
+                </div>
+                <div class="input__wrapper">
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$"
+                    title="Minimálně 8 znaků, z toho alespoň jedno velké písmeno a jedno číslo"
+                    placeholder="Heslo*"
+                    required
+                  />
+                  <span class="fa-solid fa-eye" id="password__icon"></span>
+                </div>
+                <div class="input__wrapper">
+                  <input
+                    type="password"
+                    id="password-check"
+                    name="password"
+                    placeholder="Heslo znovu*"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$"
+                    title="Minimálně 8 znaků, z toho alespoň jedno velké písmeno a jedno číslo"
+                    placeholder="Heslo znovu*"
+                    required
+                  />
+                  <span id="password__alerts"></span>
+                </div>
+                <button class="btn btn--form" type="submit">
+                  Objednat Palmu
+                </button>
+              </form>
+            </div>
+            <div class="enquiry-info">
+              <h3 class="enquiry-title">Customizované widgety a zařízení</h3>
+              <p class="enquiry-info__txt">
+                Pomocí widgetů si v aplikaci Palma můžete vytvořit vlastní
+                domovskou obrazovku, přesně takovou, jakou máte v telefonu. A
+                zobrazte si nejdůležitější zprávy a aktualizace, aniž byste
+                museli spouštět aplikaci. Vyzkoušejte zdravý životní styl na
+                ePaperu. Na nejmodernějším displeji E Ink Carta 1200 s mimořádně
+                ostrým rozlišením 300 PPI si můžete prohlížet každodenní obsah
+                bez únavy očí.
+              </p>
+              <p>
+                Pomocí přizpůsobitelného funkčního tlačítka⁴ toho můžete dělat
+                mnohem víc, od návratu zpět nebo úplného obnovení až po přístup
+                do centra E Ink nebo pořízení snímku obrazovky. Tlačítka
+                hlasitosti můžete také přizpůsobit tak, aby otáčela stránky nebo
+                fungovala jako tlačítka pro posouvání.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Accessories == -->
+      <section class="accessories-section" id="accessories">
+        <div class="wrapper">
+          <div class="accessories-info">
+            <div class="accessories-info__box1 flex-col">
+              <div class="box1-img-container">
+                <img
+                  class="scale-img"
+                  src="./media/flip-fold-case.webp"
+                  alt="Flipovací pouzdro"
+                />
+              </div>
+              <div class="box1__txt">
+                <h3>Flipovací pouzdro</h3>
+                <p>
+                  Rozevírací pouzdro slouží jako všestranné ochranné pouzdro a
+                  zároveň jako stojánek pro Palmu, který vám umožní číst,
+                  prohlížet stránky a poslouchat hudbu, aniž byste museli
+                  zařízení držet. Objednejte si ho spolu s produktem Palma a
+                  získejte speciální slevu.
+                </p>
+              </div>
+              <a class="btn btn--primary">Objevte palmu</a>
+            </div>
+            <div class="accessories-info__box2">
+              <img
+                class="scale-img"
+                src="./media/transparent-case.webp"
+                alt="Transparentní pouzdro"
+              />
+              <span class="box2__txt">Matné průhledné pouzdro</span>
+            </div>
+            <div class="accessories-info__box3">
+              <img
+                class="scale-img"
+                src="./media/regular-case.webp"
+                alt="Běžné pouzdro"
+              />
+              <span class="box3__txt">Běžná pouzdra</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Icons section -->
+    <section class="icons flex">
+      <div class="wrapper">
+        <div class="icons__usp flex">
+          <div class="icons__usp-box1">
+            <span class="fa-regular fa-lightbulb"></span>
+            <p>Neustálé aktualizace firmwaru</p>
+          </div>
+          <div class="icons__usp-box2">
+            <span class="fa-solid fa-cloud-arrow-up"></span>
+            <p>10GB cloudové úložiště</p>
+          </div>
+          <div class="icons__usp-box3">
+            <span class="fa-solid fa-check"></span>
+            <p>Jednoletá záruka</p>
+          </div>
+          <div class="icons__box4">
+            <span class="fa-solid fa-headphones-simple"></span>
+            <p>Rychlý zákaznický servis</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Back top btn -->
+    <div class="back-top-btn">
+      <span class="fa-sharp fa-solid fa-arrow-up"></span>
+    </div>
+
+    <!-- Footer == -->
+    <footer id="contact">
+      <div class="wrapper">
+        <div class="logo-wrapper">
+          <img src="./media/BOOX-logo.webp" alt="Logo společnosti BOOX" />
+        </div>
+        <hr />
+        <div class="socials flex">
+          <a class="socials__links" href="https://www.facebook.com/"
+            ><span class="fa-brands fa-facebook-f"></span
+          ></a>
+          <a class="socials__links" href="https://www.instagram.com/"
+            ><span class="fa-brands fa-instagram"></span
+          ></a>
+        </div>
+        <div class="copyright">© 2024 BOOX</div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
