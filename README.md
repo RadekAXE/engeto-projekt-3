@@ -1,2 +1,2 @@
 # engeto-projekt-3
-Odevzdání finálního projektu - komplexní webové stránky v rámci akademie Front End 2024 
+Odevzdání finálního projektu - komplexní webové stránky v rámci Engeto akademie Front End 2024 
